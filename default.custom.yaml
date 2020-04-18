@@ -3,10 +3,10 @@
 patch:
   schema_list:
     - schema: luna_pinyin
-    - schema: cangjie5
-    - schema: luna_pinyin_fluency
+    # - schema: cangjie5
+    # - schema: luna_pinyin_fluency
     - schema: luna_pinyin_simp
-    - schema: luna_pinyin_tw
+    # - schema: luna_pinyin_tw
   key_binder/bindings:
     # Emacs style
     - { when: composing, accept: Control+p, send: Up }

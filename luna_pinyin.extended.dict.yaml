@@ -42,7 +42,7 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 import_tables:
   - luna_pinyin
-  - luna_pinyin.hanyu
+  # - luna_pinyin.hanyu
   - luna_pinyin.poetry
   - luna_pinyin.cn_en
   - luna_pinyin.emoji
@@ -60,6 +60,8 @@ import_tables:
   - luna_pinyin.jisuanjicihuidaquan
   - luna_pinyin.chengyusuyu
   - luna_pinyin.emoji.cldr
+  - luna_pinyin.sougou
+  - aurora_pinyin
   #  - luna_pinyin.simonqian # 这里添加自己的词库，假如为luna_pinyin.simonqian.dict.yaml
 ...
 
