@@ -32,7 +32,7 @@ switcher:
   option_list_separator: '／'
 
 menu:
-  page_size: 8
+  page_size: 10
 
 punctuator:
   full_shape:
@@ -56,9 +56,9 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 
 ascii_composer:
-  good_old_caps_lock: false
+  good_old_caps_lock: true
   switch_key:
-    Shift_L: inline_ascii
+    Shift_L: commit_code
     Shift_R: commit_text
     Control_L: noop
     Control_R: noop
