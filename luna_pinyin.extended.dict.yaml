@@ -61,8 +61,8 @@ import_tables:
   - luna_pinyin.chengyusuyu
   - luna_pinyin.emoji.cldr
   - luna_pinyin.sougou
-  - luna_pinyin.sgmain.dict
-  - luna_pinyin.website.dict
+  - luna_pinyin.sgmain
+  - luna_pinyin.website
   - aurora_pinyin
   - zhwiki
   #  - luna_pinyin.simonqian # 这里添加自己的词库，假如为luna_pinyin.simonqian.dict.yaml
